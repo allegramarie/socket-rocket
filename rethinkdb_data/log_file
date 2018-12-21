@@ -1,0 +1,588 @@
+2018-12-15T17:50:47.891814000 0.125732s notice: Recursively removing directory /Users/bernda/Documents/sockets/rethinkdb_data/tmp
+2018-12-15T17:50:47.893537000 0.127458s notice: Initializing directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-15T17:50:47.893637000 0.127553s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/bernda/Documents/sockets/rethinkdb_data' did not already exist or is empty.)
+2018-12-15T17:50:47.893671000 0.127587s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-15T17:50:47.899015000 0.132932s notice: Running on Darwin 17.7.0 x86_64
+2018-12-15T17:50:47.899066000 0.132982s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-15T17:50:47.982845000 0.216761s info: Automatically using cache size of 1047 MB
+2018-12-15T17:50:47.983854000 0.217770s notice: Listening for intracluster connections on port 29015
+2018-12-15T17:50:47.986248000 0.220164s notice: Listening for client driver connections on port 28015
+2018-12-15T17:50:47.986389000 0.220304s notice: Listening for administrative HTTP connections on port 8080
+2018-12-15T17:50:47.986392000 0.220307s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-15T17:50:47.986399000 0.220314s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-15T17:50:47.986404000 0.220319s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-15T17:50:47.986416000 0.220331s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-15T17:50:47.986426000 0.220341s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-15T18:01:11.889312000 624.117597s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:01:12.898485000 625.126760s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:02:12.836936000 685.064670s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:03:52.041410000 784.268249s notice: Server got SIGINT from pid 573, uid 702987934; shutting down...
+2018-12-15T18:03:52.041637000 784.268476s notice: Shutting down client connections...
+2018-12-15T18:03:52.041789000 784.268628s notice: All client connections closed.
+2018-12-15T18:03:52.041801000 784.268640s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-15T18:03:52.042295000 784.269134s notice: Storage engine shut down.
+2018-12-15T18:03:57.830201000 0.248732s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-15T18:03:57.834748000 0.253276s notice: Running on Darwin 17.7.0 x86_64
+2018-12-15T18:03:57.834875000 0.253403s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-15T18:03:57.861632000 0.280160s info: Automatically using cache size of 805 MB
+2018-12-15T18:03:57.866679000 0.285208s notice: Listening for intracluster connections on port 29015
+2018-12-15T18:03:57.870307000 0.288835s notice: Listening for client driver connections on port 28015
+2018-12-15T18:03:57.870824000 0.289352s notice: Listening for administrative HTTP connections on port 8080
+2018-12-15T18:03:57.874854000 0.293381s notice: Listening on cluster addresses: 127.0.0.1, 192.168.0.24, 169.254.54.114, 10.214.225.162, ::1, 2604:2000:8198:3400::8, 2604:2000:8198:3400:1cc8:25f3:4899:4168, 2604:2000:8198:3400:ac3e:a66:23b0:df83, fe80::1%1, fe80::cae:b8a0:eba0:3af6%12, fe80::1460:60e9:1cf6:d383%18, fe80::886f:ebff:fe1f:8914%14, fe80::aede:48ff:fe00:1122%7, fe80::cccb:b83:d153:f56d%17
+2018-12-15T18:03:57.876920000 0.295448s notice: Listening on driver addresses: 127.0.0.1, 192.168.0.24, 169.254.54.114, 10.214.225.162, ::1, 2604:2000:8198:3400::8, 2604:2000:8198:3400:1cc8:25f3:4899:4168, 2604:2000:8198:3400:ac3e:a66:23b0:df83, fe80::1%1, fe80::cae:b8a0:eba0:3af6%12, fe80::1460:60e9:1cf6:d383%18, fe80::886f:ebff:fe1f:8914%14, fe80::aede:48ff:fe00:1122%7, fe80::cccb:b83:d153:f56d%17
+2018-12-15T18:03:57.878791000 0.297319s notice: Listening on http addresses: 127.0.0.1, 192.168.0.24, 169.254.54.114, 10.214.225.162, ::1, 2604:2000:8198:3400::8, 2604:2000:8198:3400:1cc8:25f3:4899:4168, 2604:2000:8198:3400:ac3e:a66:23b0:df83, fe80::1%1, fe80::cae:b8a0:eba0:3af6%12, fe80::1460:60e9:1cf6:d383%18, fe80::886f:ebff:fe1f:8914%14, fe80::aede:48ff:fe00:1122%7, fe80::cccb:b83:d153:f56d%17
+2018-12-15T18:03:57.878799000 0.297326s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-15T18:04:05.052538000 7.471001s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:04:06.058228000 8.476682s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:05:06.027054000 68.444966s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:05:06.538955000 68.956864s notice: Server got SIGINT from pid 573, uid 702987934; shutting down...
+2018-12-15T18:05:06.539127000 68.957034s notice: Shutting down client connections...
+2018-12-15T18:05:06.539243000 68.957150s notice: All client connections closed.
+2018-12-15T18:05:06.539253000 68.957160s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-15T18:05:06.539755000 68.957662s notice: Storage engine shut down.
+2018-12-15T18:05:11.176709000 0.012090s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-15T18:05:11.180719000 0.016097s notice: Running on Darwin 17.7.0 x86_64
+2018-12-15T18:05:11.180768000 0.016146s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-15T18:05:11.204486000 0.039864s info: Automatically using cache size of 807 MB
+2018-12-15T18:05:11.205291000 0.040669s notice: Listening for intracluster connections on port 29015
+2018-12-15T18:05:11.208105000 0.043483s notice: Listening for client driver connections on port 28015
+2018-12-15T18:05:11.208304000 0.043681s notice: Listening for administrative HTTP connections on port 8080
+2018-12-15T18:05:11.208305000 0.043683s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-15T18:05:11.208310000 0.043687s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-15T18:05:11.208313000 0.043690s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-15T18:05:11.208320000 0.043697s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-15T18:05:11.208326000 0.043703s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-15T18:05:21.490604000 10.325889s notice: Someone asked for the nonwhitelisted file "/static/css/main.3f2831a6.css.map".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:05:22.647173000 11.482448s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:05:22.836878000 11.672151s notice: Someone asked for the nonwhitelisted file "/static/css/main.3f2831a6.css.map".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:05:23.655978000 12.491243s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:10:22.407635000 311.240203s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:12:09.928977000 418.760575s notice: Server got SIGINT from pid 573, uid 702987934; shutting down...
+2018-12-15T18:12:09.929205000 418.760803s notice: Shutting down client connections...
+2018-12-15T18:12:09.929329000 418.760927s notice: All client connections closed.
+2018-12-15T18:12:09.929336000 418.760933s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-15T18:12:09.930006000 418.761604s notice: Storage engine shut down.
+2018-12-15T18:13:08.332858000 0.011843s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-15T18:13:08.336759000 0.015742s notice: Running on Darwin 17.7.0 x86_64
+2018-12-15T18:13:08.336800000 0.015781s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-15T18:13:08.365080000 0.044064s info: Automatically using cache size of 721 MB
+2018-12-15T18:13:08.365922000 0.044903s notice: Listening for intracluster connections on port 29015
+2018-12-15T18:13:08.369482000 0.048464s notice: Listening for client driver connections on port 28015
+2018-12-15T18:13:08.369920000 0.048902s notice: Listening for administrative HTTP connections on port 8080
+2018-12-15T18:13:08.369924000 0.048905s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-15T18:13:08.369929000 0.048910s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-15T18:13:08.369935000 0.048916s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-15T18:13:08.369942000 0.048923s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-15T18:13:08.369949000 0.048930s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-15T18:13:11.368777000 3.047731s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:13:11.566069000 3.245021s notice: Someone asked for the nonwhitelisted file "/static/css/main.3f2831a6.css.map".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:13:12.377920000 4.056865s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:15:09.493453000 121.171344s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:15:09.771007000 121.448893s notice: Someone asked for the nonwhitelisted file "/static/css/main.3f2831a6.css.map".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:15:10.503297000 122.181177s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:15:52.420493000 164.097994s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-15T18:31:17.174513000 1088.843667s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Starting a new Raft election for term 1.
+2018-12-15T18:31:17.175341000 1088.844496s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Added replica on this server.
+2018-12-15T18:31:17.183996000 1088.853151s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-15T18:35:11.453707000 1323.120748s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Starting a new Raft election for term 1.
+2018-12-15T18:35:11.453869000 1323.120909s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Added replica on this server.
+2018-12-15T18:35:11.468296000 1323.135336s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-16T13:27:59.364730000 4262.220024s notice: Server got SIGINT from pid 573, uid 702987934; shutting down...
+2018-12-16T13:27:59.364951000 4262.220243s notice: Shutting down client connections...
+2018-12-16T13:27:59.366783000 4262.222075s notice: All client connections closed.
+2018-12-16T13:27:59.366813000 4262.222105s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-16T13:27:59.376260000 4262.231552s notice: Storage engine shut down.
+2018-12-16T13:29:05.476698000 64.496854s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-16T13:29:05.490308000 64.510458s notice: Running on Darwin 17.7.0 x86_64
+2018-12-16T13:29:05.490381000 64.510531s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-16T13:29:05.515973000 64.536123s info: Automatically using cache size of 2669 MB
+2018-12-16T13:29:05.516934000 64.537084s notice: Listening for intracluster connections on port 29015
+2018-12-16T13:29:05.548768000 64.568918s notice: Listening for client driver connections on port 28015
+2018-12-16T13:29:05.548940000 64.569089s notice: Listening for administrative HTTP connections on port 8080
+2018-12-16T13:29:05.548943000 64.569092s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-16T13:29:05.548946000 64.569095s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-16T13:29:05.548948000 64.569098s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-16T13:29:05.548951000 64.569100s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-16T13:29:05.548953000 64.569102s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-16T13:29:05.587407000 64.607556s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2018-12-16T13:29:06.559360000 65.579501s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Starting a new Raft election for term 2.
+2018-12-16T13:29:06.576048000 65.596188s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: This server is Raft leader for term 2. Latest log index is 2.
+2018-12-16T13:29:07.090083000 66.110219s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Starting a new Raft election for term 2.
+2018-12-16T13:29:07.104310000 66.124445s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: This server is Raft leader for term 2. Latest log index is 2.
+2018-12-16T13:37:38.277197000 577.292719s notice: Server got SIGINT from pid 573, uid 702987934; shutting down...
+2018-12-16T13:37:38.277429000 577.292950s notice: Shutting down client connections...
+2018-12-16T13:37:38.277589000 577.293111s notice: All client connections closed.
+2018-12-16T13:37:38.277602000 577.293123s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-16T13:37:38.282409000 577.297931s notice: Storage engine shut down.
+2018-12-16T13:37:40.110518000 0.059103s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-16T13:37:40.115237000 0.063818s notice: Running on Darwin 17.7.0 x86_64
+2018-12-16T13:37:40.115278000 0.063859s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-16T13:37:40.141965000 0.090546s info: Automatically using cache size of 2325 MB
+2018-12-16T13:37:40.142517000 0.091097s notice: Listening for intracluster connections on port 29015
+2018-12-16T13:37:40.166694000 0.115274s notice: Listening for client driver connections on port 28015
+2018-12-16T13:37:40.166822000 0.115402s notice: Listening for administrative HTTP connections on port 8080
+2018-12-16T13:37:40.166825000 0.115405s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-16T13:37:40.166828000 0.115408s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-16T13:37:40.166832000 0.115412s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-16T13:37:40.166834000 0.115414s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-16T13:37:40.166837000 0.115416s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-16T13:37:41.776814000 1.725380s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Starting a new Raft election for term 3.
+2018-12-16T13:37:41.792416000 1.740981s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: This server is Raft leader for term 3. Latest log index is 5.
+2018-12-16T13:37:41.979892000 1.928457s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Starting a new Raft election for term 3.
+2018-12-16T13:37:41.996848000 1.945412s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: This server is Raft leader for term 3. Latest log index is 5.
+2018-12-16T13:44:08.413254000 388.358331s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-16T13:44:09.423274000 389.368340s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-16T13:44:11.580992000 391.526040s notice: Someone asked for the nonwhitelisted file "/static/css/main.3f2831a6.css.map".  If this should be accessible, add it to the static web assets.
+2018-12-16T13:44:13.849249000 393.794277s notice: Someone asked for the nonwhitelisted file "/static/js/main.c67148a5.js".  If this should be accessible, add it to the static web assets.
+2018-12-16T13:44:14.036820000 393.981845s notice: Someone asked for the nonwhitelisted file "/static/css/main.3f2831a6.css.map".  If this should be accessible, add it to the static web assets.
+2018-12-16T13:44:14.857483000 394.802501s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-16T13:45:09.330198000 449.274724s notice: Someone asked for the nonwhitelisted file "/service-worker.js".  If this should be accessible, add it to the static web assets.
+2018-12-16T14:16:52.805453000 2352.732799s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: Starting a new Raft election for term 1.
+2018-12-16T14:16:52.805775000 2352.733121s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: Added replica on this server.
+2018-12-16T14:16:52.815971000 2352.743317s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-16T21:18:34.736461000 5642.389952s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:18:37.002024000 5644.655492s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:18:40.999420000 5648.652853s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:18:45.978732000 5653.632119s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:18:52.742253000 5660.395580s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:18:59.761447000 5667.414710s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:06.745181000 5674.398380s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:14.060907000 5681.714041s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:20.742822000 5688.395895s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:28.079853000 5695.732860s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:35.744921000 5703.397860s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:42.744788000 5710.397663s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:48.748885000 5716.401706s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:19:56.242170000 5723.894923s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:02.748921000 5730.401615s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:09.101218000 5736.753854s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:16.098623000 5743.751197s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:23.240890000 5750.893400s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:30.077985000 5757.730433s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:36.743315000 5764.395703s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:44.235191000 5771.887511s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:50.746412000 5778.398674s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:51.362776000 5779.015032s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:53.775283000 5781.427517s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:20:58.163462000 5785.815656s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:03.958740000 5791.610882s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:10.794051000 5798.446131s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:19.227679000 5806.879683s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:26.577780000 5814.229717s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:33.142895000 5820.794773s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:40.683816000 5828.335627s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:47.126920000 5834.778672s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:21:53.744447000 5841.396140s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:02.282309000 5849.933924s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:07.925464000 5855.577028s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:15.968948000 5863.620440s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:23.928122000 5871.579542s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:30.825590000 5878.476948s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:39.160845000 5886.812127s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:46.675337000 5894.326552s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:22:53.057001000 5900.708158s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:00.793464000 5908.444551s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:07.896123000 5915.547147s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:16.107551000 5923.758500s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:23.723462000 5931.374343s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:29.174412000 5936.825243s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:36.645213000 5944.295977s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:43.128404000 5950.779110s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:49.183174000 5956.833825s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:23:56.623217000 5964.273801s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:03.206082000 5970.856606s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:09.177341000 5976.827811s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:16.643756000 5984.294159s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:23.176543000 5990.826887s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:29.211055000 5996.861345s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:36.654980000 6004.305202s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:43.163106000 6010.813269s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:50.079279000 6017.729380s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:24:57.743414000 6025.393446s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:06.295439000 6033.945394s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:13.487241000 6041.137131s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:20.253113000 6047.902942s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:27.586809000 6055.236572s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:34.172468000 6061.822172s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:40.745858000 6068.395502s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:47.789057000 6075.438637s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:25:54.901917000 6082.551433s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:03.047094000 6090.696537s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:09.202875000 6096.852262s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:16.567469000 6104.216789s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:23.235060000 6110.884321s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:29.185514000 6116.834721s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:36.116435000 6123.765579s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:42.746331000 6130.395416s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:49.820034000 6137.469054s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:55.467136000 6143.116105s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:26:56.764998000 6144.413956s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:00.785024000 6148.433946s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:05.746871000 6153.395748s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:12.750500000 6160.399314s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:19.747096000 6167.395846s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:27.329082000 6174.977764s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:34.160125000 6181.808746s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:41.682520000 6189.331072s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:47.962653000 6195.611149s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:27:56.116315000 6203.764737s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:02.801089000 6210.449452s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:10.005638000 6217.653935s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:17.414972000 6225.063203s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:23.747041000 6231.395214s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:29.747206000 6237.395325s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:37.688263000 6245.336310s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:44.172002000 6251.819991s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:50.076322000 6257.724258s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:28:57.768125000 6265.415991s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:05.021518000 6272.669318s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:11.974456000 6279.622193s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:19.185086000 6286.832758s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:25.747365000 6293.394978s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:33.191415000 6300.838961s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:40.124408000 6307.771892s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:47.106095000 6314.753515s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:29:54.112298000 6321.759654s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:01.972331000 6329.619617s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:09.014737000 6336.661959s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:16.582244000 6344.229398s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:23.283002000 6350.930096s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:28.981949000 6356.628992s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:36.071559000 6363.718537s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:42.748664000 6370.395582s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:48.984260000 6376.631122s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:30:55.749320000 6383.396120s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:02.875432000 6390.522168s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:10.016160000 6397.662832s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:17.820798000 6405.467399s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:26.131558000 6413.778085s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:32.948827000 6420.595292s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:40.973101000 6428.619494s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:48.068780000 6435.715109s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:31:55.149299000 6442.795563s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:01.749037000 6449.395242s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:08.901872000 6456.548013s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:16.046706000 6463.692782s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:22.749715000 6470.395730s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:29.948440000 6477.594391s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:37.270670000 6484.916555s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:44.176263000 6491.822085s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:50.176908000 6497.822676s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:32:57.243405000 6504.889109s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:03.749867000 6511.395512s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:09.750667000 6517.396259s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:17.017326000 6524.662852s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:24.856589000 6532.502044s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:31.291156000 6538.936553s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:36.301152000 6543.946504s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:41.309813000 6548.955120s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:46.318032000 6553.963293s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:51.326546000 6558.971762s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:33:56.334203000 6563.979374s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:01.343716000 6568.988842s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:06.356531000 6574.001612s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:11.363862000 6579.008897s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:16.814272000 6584.459258s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:23.750617000 6591.395541s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:30.886206000 6598.531065s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:38.479747000 6606.124538s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:45.219990000 6612.864720s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:52.247701000 6619.892367s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:58.151811000 6625.796424s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:34:59.405703000 6627.050305s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:01.786957000 6629.431538s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:06.794089000 6634.438625s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:12.768209000 6640.412690s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:20.735485000 6648.379894s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:26.134867000 6653.779227s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:28.791890000 6656.436227s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:32.750933000 6660.395233s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:37.956937000 6665.601190s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:43.799882000 6671.444083s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:50.206332000 6677.850476s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:35:56.886403000 6684.530486s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:03.751000000 6691.395021s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:06.269052000 6693.913050s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:08.223579000 6695.867560s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:09.602621000 6697.246589s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:13.605396000 6701.249328s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:14.945341000 6702.589261s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:17.535054000 6705.178950s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:20.720027000 6708.363895s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:20.880750000 6708.524616s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:22.316797000 6709.960651s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:24.461778000 6712.105612s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:25.729125000 6713.372948s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:27.282386000 6714.926195s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:30.735108000 6718.378885s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:32.103173000 6719.746938s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:35.742620000 6723.386352s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:37.119085000 6724.762805s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:40.752902000 6728.396589s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:45.761973000 6733.405615s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:50.773538000 6738.417135s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:36:55.786446000 6743.429997s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:00.795489000 6748.438995s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:05.806659000 6753.450120s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:10.818850000 6758.462266s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:15.828228000 6763.471599s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:20.835910000 6768.479236s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:25.848441000 6773.491721s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:30.858748000 6778.501983s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:35.868037000 6783.511227s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:40.875651000 6788.518796s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:45.883897000 6793.526996s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:50.889903000 6798.532957s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:37:55.900749000 6803.543758s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:00.909008000 6808.551971s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:05.926765000 6813.569683s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:10.938921000 6818.581794s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:15.949626000 6823.592454s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:20.959055000 6828.601838s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:25.970231000 6833.612968s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:30.977721000 6838.620414s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:35.985288000 6843.627935s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:40.992321000 6848.634923s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:45.999454000 6853.642011s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:51.011431000 6858.653943s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:38:56.020337000 6863.662804s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:01.029802000 6868.672223s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:06.041185000 6873.683561s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:11.052359000 6878.694690s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:16.063245000 6883.705530s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:21.070916000 6888.713156s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:26.083265000 6893.725460s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:31.095016000 6898.737165s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:36.107530000 6903.749635s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:41.116159000 6908.758218s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:46.126083000 6913.768097s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:51.134466000 6918.776435s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:39:56.145921000 6923.787845s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:01.157053000 6928.798932s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:06.163675000 6933.805508s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:11.174177000 6938.815965s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:16.184333000 6943.826076s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:21.192278000 6948.833976s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:26.201688000 6953.843341s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:31.213265000 6958.854872s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:36.225171000 6963.866733s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:41.233568000 6968.875085s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:46.249399000 6973.890871s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:51.259284000 6978.900711s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:40:56.268067000 6983.909448s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:01.280439000 6988.921775s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:06.290642000 6993.931932s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:11.300725000 6998.941971s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:16.312509000 7003.953709s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:21.325846000 7008.967001s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:26.336054000 7013.977164s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:31.348187000 7018.989252s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:36.357216000 7023.998236s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:41.369396000 7029.010370s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:46.382128000 7034.023057s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:51.390117000 7039.031001s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:41:56.412923000 7044.053762s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:01.426467000 7049.067261s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:06.436375000 7054.077123s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:11.448448000 7059.089151s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:16.461373000 7064.102030s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:21.469064000 7069.109676s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:26.484101000 7074.124668s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:31.496234000 7079.136755s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:36.513171000 7084.153648s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:41.526821000 7089.167252s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:46.538871000 7094.179257s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:51.551853000 7099.192194s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:42:56.562767000 7104.203063s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:01.578051000 7109.218301s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:06.585369000 7114.225574s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:11.593070000 7119.233230s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:16.607733000 7124.247848s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:21.625963000 7129.266033s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:26.641004000 7134.281028s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:31.656208000 7139.296187s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:36.673992000 7144.313926s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:41.681806000 7149.321694s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:46.698564000 7154.338407s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:51.706385000 7159.346183s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:43:56.723099000 7164.362852s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:01.736930000 7169.376638s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:06.750818000 7174.390480s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:11.768241000 7179.407857s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:16.784410000 7184.423981s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:21.805199000 7189.444724s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:26.818867000 7194.458348s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:31.833206000 7199.472641s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:36.846933000 7204.486323s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:41.863677000 7209.503022s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:46.880221000 7214.519520s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:51.893978000 7219.533232s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:44:56.910562000 7224.549770s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:01.926153000 7229.565316s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:06.937167000 7234.576285s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:11.948361000 7239.587434s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:16.972255000 7244.611282s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:21.980581000 7249.619563s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:26.996110000 7254.635047s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:32.007066000 7259.645958s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:37.022459000 7264.661305s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:42.030791000 7269.669593s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:47.044374000 7274.683130s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:52.058745000 7279.697456s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:45:57.076569000 7284.715234s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:02.089275000 7289.727896s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:07.105581000 7294.744156s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:12.113730000 7299.752260s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:17.127385000 7304.765869s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:22.142536000 7309.780975s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:27.154672000 7314.793066s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:32.163855000 7319.802204s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:37.174202000 7324.812506s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:42.184769000 7329.823027s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:47.202125000 7334.840338s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:52.214411000 7339.852580s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:46:57.681833000 7345.319952s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:02.689895000 7350.327968s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:07.703752000 7355.341780s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:12.715396000 7360.353379s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:17.726194000 7365.364131s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:22.734328000 7370.372221s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:27.746864000 7375.384711s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:32.758733000 7380.396535s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:37.765755000 7385.403512s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:42.777937000 7390.415648s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:47.788760000 7395.426426s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:52.796410000 7400.434031s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:47:57.806442000 7405.444018s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:02.818836000 7410.456366s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:07.832263000 7415.469749s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:12.843839000 7420.481280s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:17.852707000 7425.490102s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:22.860876000 7430.498226s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:27.872727000 7435.510032s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:32.881651000 7440.518910s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:37.893188000 7445.530402s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:42.905189000 7450.542358s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:47.915830000 7455.552953s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:52.923591000 7460.560670s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:48:57.935799000 7465.572832s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:02.947842000 7470.584830s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:07.960396000 7475.597339s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:12.972542000 7480.609439s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:17.983865000 7485.620717s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:22.994966000 7490.631773s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:28.003810000 7495.640572s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:33.758309000 7501.395019s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:40.764572000 7508.401219s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:47.219701000 7514.856289s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:58.209100000 7525.845589s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:49:59.347780000 7526.984259s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:01.311340000 7528.947802s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:04.646092000 7532.282524s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:08.088692000 7535.725092s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:09.526776000 7537.163164s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:11.333189000 7538.969560s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:14.768832000 7542.405172s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:19.777122000 7547.413417s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:24.785118000 7552.421367s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:29.796583000 7557.432787s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:34.806319000 7562.442478s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:39.816149000 7567.452263s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:44.831508000 7572.467576s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:49.843362000 7577.479385s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:54.851005000 7582.486983s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:50:59.862881000 7587.498814s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:04.872457000 7592.508344s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:09.886101000 7597.521944s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:14.897699000 7602.533496s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:19.910190000 7607.545942s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:25.952909000 7613.588606s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:33.032049000 7620.667683s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:40.316417000 7627.951985s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:47.167407000 7634.802913s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:51:53.950160000 7641.585605s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:00.759850000 7648.395234s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:08.501465000 7656.136779s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:15.222624000 7662.857877s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:22.626371000 7670.261557s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:29.193245000 7676.828372s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:35.912285000 7683.547352s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:43.070654000 7690.705656s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T21:52:49.461296000 7697.096239s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:15:11.027088000 9038.649924s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:15:12.044800000 9039.667626s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:15:13.591462000 9041.214274s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:15:16.675741000 9044.298526s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:16:39.145937000 9126.767977s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:16:40.323160000 9127.945188s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:16:41.500319000 9129.122337s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-16T22:16:45.324530000 9132.946514s notice: Someone asked for the nonwhitelisted file "/socket.io/".  If this should be accessible, add it to the static web assets.
+2018-12-17T09:00:21.890262000 10462.203906s notice: Server got SIGINT from pid 573, uid 702987934; shutting down...
+2018-12-17T09:00:21.896702000 10462.210343s notice: Shutting down client connections...
+2018-12-17T09:00:21.897706000 10462.211346s notice: All client connections closed.
+2018-12-17T09:00:21.897724000 10462.211363s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-17T09:00:21.927075000 10462.240714s notice: Storage engine shut down.
+2018-12-17T09:00:24.030185000 0.074707s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-17T09:00:24.038803000 0.083322s notice: Running on Darwin 17.7.0 x86_64
+2018-12-17T09:00:24.038863000 0.083381s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-17T09:00:24.063628000 0.108146s info: Automatically using cache size of 2715 MB
+2018-12-17T09:00:24.065429000 0.109948s notice: Listening for intracluster connections on port 29015
+2018-12-17T09:00:24.125562000 0.170080s notice: Listening for client driver connections on port 28015
+2018-12-17T09:00:24.125699000 0.170217s notice: Listening for administrative HTTP connections on port 8080
+2018-12-17T09:00:24.125724000 0.170241s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-17T09:00:24.125727000 0.170244s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-17T09:00:24.125730000 0.170247s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-17T09:00:24.125732000 0.170249s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-17T09:00:24.125735000 0.170252s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-17T09:00:25.222939000 1.267447s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Starting a new Raft election for term 4.
+2018-12-17T09:00:25.234186000 1.278693s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: This server is Raft leader for term 4. Latest log index is 8.
+2018-12-17T09:00:25.264409000 1.308915s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Starting a new Raft election for term 4.
+2018-12-17T09:00:25.280426000 1.324933s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: This server is Raft leader for term 4. Latest log index is 8.
+2018-12-17T09:00:25.784466000 1.828967s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: Starting a new Raft election for term 2.
+2018-12-17T09:00:25.793257000 1.837759s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: This server is Raft leader for term 2. Latest log index is 2.
+2018-12-17T09:28:21.809506000 0.019025s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-17T09:28:21.814946000 0.024462s notice: Running on Darwin 17.7.0 x86_64
+2018-12-17T09:28:21.814999000 0.024514s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-17T09:28:21.845243000 0.054758s info: Automatically using cache size of 1616 MB
+2018-12-17T09:28:21.846031000 0.055545s notice: Listening for intracluster connections on port 29015
+2018-12-17T09:28:21.909926000 0.119441s notice: Listening for client driver connections on port 28015
+2018-12-17T09:28:21.910082000 0.119596s notice: Listening for administrative HTTP connections on port 8080
+2018-12-17T09:28:21.910169000 0.119684s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-17T09:28:21.910172000 0.119687s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-17T09:28:21.910175000 0.119689s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-17T09:28:21.910177000 0.119691s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-17T09:28:21.910179000 0.119694s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-17T09:28:23.372532000 1.582047s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Starting a new Raft election for term 5.
+2018-12-17T09:28:23.374155000 1.583670s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: Starting a new Raft election for term 3.
+2018-12-17T09:28:23.388765000 1.598291s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: This server is Raft leader for term 5. Latest log index is 11.
+2018-12-17T09:28:23.404170000 1.613686s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: This server is Raft leader for term 3. Latest log index is 5.
+2018-12-17T09:28:23.506881000 1.716397s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Starting a new Raft election for term 5.
+2018-12-17T09:28:23.520270000 1.729785s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: This server is Raft leader for term 5. Latest log index is 11.
+2018-12-17T09:49:10.533178000 1243.984420s notice: Server got SIGINT from pid 629, uid 702987934; shutting down...
+2018-12-17T09:49:10.533378000 1243.984620s notice: Shutting down client connections...
+2018-12-17T09:49:10.533488000 1243.984730s notice: All client connections closed.
+2018-12-17T09:49:10.533494000 1243.984736s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-17T09:49:10.543535000 1243.994777s notice: Storage engine shut down.
+2018-12-18T13:56:31.307132000 0.091521s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-12-18T13:56:31.314147000 0.098531s notice: Running on Darwin 17.7.0 x86_64
+2018-12-18T13:56:31.314195000 0.098579s notice: Loading data from directory /Users/bernda/Documents/sockets/rethinkdb_data
+2018-12-18T13:56:31.342970000 0.127354s info: Automatically using cache size of 1012 MB
+2018-12-18T13:56:31.347512000 0.131897s notice: Listening for intracluster connections on port 29015
+2018-12-18T13:56:31.420601000 0.204984s notice: Listening for client driver connections on port 28015
+2018-12-18T13:56:31.420744000 0.205126s notice: Listening for administrative HTTP connections on port 8080
+2018-12-18T13:56:31.420745000 0.205127s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-12-18T13:56:31.420745001 0.205128s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-12-18T13:56:31.420830000 0.205212s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-12-18T13:56:31.420833000 0.205215s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-18T13:56:31.420835000 0.205217s notice: Server ready, "NYCM002510439_wt9" c85b911c-2a48-42f1-9d57-9eb2e0012e71
+2018-12-18T13:56:32.515900000 1.300268s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: Starting a new Raft election for term 6.
+2018-12-18T13:56:32.526694000 1.311061s info: Table dacdd8cf-c0e7-443d-b2cd-65ca613435e2: This server is Raft leader for term 6. Latest log index is 14.
+2018-12-18T13:56:32.588755000 1.373122s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: Starting a new Raft election for term 6.
+2018-12-18T13:56:32.606135000 1.390501s info: Table eb91166a-bdfb-49b7-9684-34047a0af20b: This server is Raft leader for term 6. Latest log index is 14.
+2018-12-18T13:56:33.194478000 1.978836s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: Starting a new Raft election for term 4.
+2018-12-18T13:56:33.205765000 1.990125s info: Table 26e01953-ae98-4334-a930-b48d83c62fea: This server is Raft leader for term 4. Latest log index is 8.
+2018-12-18T13:59:22.190841000 170.972889s notice: Server got SIGINT from pid 629, uid 702987934; shutting down...
+2018-12-18T13:59:22.191067000 170.973115s notice: Shutting down client connections...
+2018-12-18T13:59:22.191189000 170.973237s notice: All client connections closed.
+2018-12-18T13:59:22.191199000 170.973247s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-12-18T13:59:22.210430000 170.992479s notice: Storage engine shut down.
